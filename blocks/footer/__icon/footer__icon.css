@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .footer__icon {
+        width: 35px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('./__title/banner__title.css');
+@import url('./__image/banner__image.css');
+@import url('./__subtitle/banner__subtitle.css');
+@import url('./__date/banner__date.css');
+@import url('./__text/banner__text.css');
+@import url('./__counter/banner__counter.css');
+
+.banner {
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 50px 17px 40px;
+
+    background-color: #F9E7D9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.banner__text {
+    margin-top: 0;
+    margin-bottom: 17px;
+
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+
+    color: #A95099;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .banner__text {
+        margin-bottom: calc((100vw - 320px)/(768 - 320) * (17 - 23) + 23px);
+        font-size: calc((100vw - 320px)/(768 - 320) * (36 - 24) + 24px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (44 - 29) + 29px);
+    }
+}
+
+@media (max-width: 319px) {
+    .banner__text {
+        margin-bottom: 23px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

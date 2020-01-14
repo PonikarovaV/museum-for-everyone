@@ -1,0 +1,30 @@
+.footer__email {
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+@media (max-width: 1050px) {
+    .footer__email {
+        order: 1;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer__email {
+        font-size: calc((100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (22 - 17) + 17px);
+    }
+}
+
+@media (max-width: 319px) {
+    .footer__email {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

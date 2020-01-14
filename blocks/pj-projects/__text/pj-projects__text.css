@@ -1,0 +1,12 @@
+.pj-projects__text {
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+}
+
+.pj-projects__text:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,17 @@
+.pj-projects__section {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 65px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 557px));
+    column-gap: 3%;
+    row-gap: 33px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1360px) {
+    .pj-projects__section {
+        justify-content: center;
+    }
+}

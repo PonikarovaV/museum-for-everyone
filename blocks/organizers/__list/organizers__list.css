@@ -1,0 +1,33 @@
+.organizers__list {
+    width: 500px;
+    margin: 0;
+    padding-left: 0;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .organizers__list {
+        width: calc((100vw - 320px)/(768 - 320) * (500 - 270) + 270px);
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(135px, 250px));
+        row-gap: 35px;
+        justify-items: center;  
+    }
+}
+
+@media (max-width: 319px) {
+    .organizers__list {
+        width: 270px;
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(135px, 250px));
+        row-gap: 35px;
+        justify-items: center;  
+    }
+}

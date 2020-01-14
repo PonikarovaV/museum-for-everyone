@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .organizers__item_a {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+}

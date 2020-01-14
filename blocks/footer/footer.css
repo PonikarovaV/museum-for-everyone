@@ -1,0 +1,30 @@
+@import url('./__email/footer__email.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__social/footer__social.css');
+@import url('./__icon/footer__icon.css');
+
+.footer {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 150px;
+    padding-left: 65px;
+    padding-right: 65px;
+
+    background-color: #F9E7D9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1050px) {
+    .footer {
+        height: auto;
+        padding: 35px 54px 38px;
+
+        flex-direction: column;
+        align-items: center;
+    }
+}

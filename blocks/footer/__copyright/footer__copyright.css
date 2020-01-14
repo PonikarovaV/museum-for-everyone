@@ -1,0 +1,29 @@
+
+.footer__copyright {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+}
+
+@media (max-width: 1050px) {
+    .footer__copyright {
+        order: 3;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer__copyright {
+        font-size: calc((100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (22 - 17) + 17px);
+    }
+}
+
+@media (max-width: 319px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

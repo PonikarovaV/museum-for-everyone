@@ -1,0 +1,16 @@
+.projects__line {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 45px;
+    height: 0;
+    margin-right: 15px;
+    
+    border: 1px solid #FBAC86;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .projects__line {
+        width: calc((100vw - 320px)/(768 - 320) * (45 - 30) + 30px);
+    }
+}

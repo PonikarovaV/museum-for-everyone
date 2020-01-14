@@ -1,0 +1,12 @@
+@import url('../blocks/page/page.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/navigation/navigation.css');
+@import url('../blocks/logo/logo.css');
+
+@import url('../blocks/main/main.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_theme/_white/button_theme_white.css');
+@import url('../blocks/pj-projects/pj-projects.css');
+
+@import url('../blocks/footer/footer.css');

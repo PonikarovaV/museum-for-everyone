@@ -1,0 +1,19 @@
+.projects__gallery {
+    box-sizing: border-box;
+    padding: 85px 64px 97px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(268px, 355px));
+    column-gap: 83px;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+    .projects__gallery {
+        padding-top: calc((100vw - 320px)/(1100 - 320) * (85 - 30) + 30px);
+        padding-bottom: calc((100vw - 320px)/(1100 - 320) * (97 - 30) + 30px);
+        padding-left: calc((100vw - 320px)/(1100 - 320) * (64 - 25) + 25px);
+        padding-right: calc((100vw - 320px)/(1100 - 320) * (64 - 25) + 25px);
+    }
+}

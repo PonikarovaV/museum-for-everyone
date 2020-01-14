@@ -1,0 +1,11 @@
+.pj-projects__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width: 1360px) {
+    .pj-projects__info {
+        order: 2;
+    }
+}

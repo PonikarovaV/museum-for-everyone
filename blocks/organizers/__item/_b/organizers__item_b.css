@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .organizers__item_b {
+        grid-column: 1/2;
+        grid-row: 2;
+        justify-self: flex-start;
+    }
+}

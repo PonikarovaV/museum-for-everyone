@@ -1,0 +1,10 @@
+.pj-projects__image_b {
+    grid-area: pic02;
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .pj-projects__image_b {
+        display: none;
+    }
+}

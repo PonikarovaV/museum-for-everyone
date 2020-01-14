@@ -1,0 +1,27 @@
+.button_theme_white {
+    width: 160px;
+    height: 50px;
+
+    background-color: unset;
+    border: 2px solid #FA8E5A;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+
+    color: #001185;
+}
+
+.button_theme_white:hover {
+    background-color: #FA8E5A;
+    color: #FFFFFF;
+}
+
+.button_theme_white:active {
+    background-color: unset;
+    color: #001185;
+}

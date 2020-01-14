@@ -1,0 +1,13 @@
+@import url('./__head/projects__head.css');
+@import url('./__title/projects__title.css');
+@import url('./__gallery/projects__gallery.css');
+@import url('./__item/projects__item.css');
+@import url('./__about/projects__about.css');
+@import url('./__text/projects__text.css');
+@import url('./__link/projects__link.css');
+@import url('./__line/projects__line.css');
+
+.projects {
+    width: 100%;
+    background: #FFFFFF;
+}

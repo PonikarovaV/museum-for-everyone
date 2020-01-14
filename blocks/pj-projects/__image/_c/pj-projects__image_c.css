@@ -1,0 +1,10 @@
+.pj-projects__image_c {
+    grid-area: pic03;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .pj-projects__image_c {
+        display: none;
+    }
+}

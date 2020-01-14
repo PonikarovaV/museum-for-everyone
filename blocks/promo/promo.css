@@ -1,0 +1,32 @@
+@import url('./__text/promo__text.css');
+@import url('./__paragraph/promo__paragraph.css');
+
+.promo {
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 60px 217px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+    .promo {
+        padding-top: calc((100vw - 320px)/(1440 - 320) * (60 - 24) + 24px);
+        padding-bottom: calc((100vw - 320px)/(1440 - 320) * (60 - 28) + 28px);
+        padding-left: calc((100vw - 320px)/(1440 - 320) * (217 - 25) + 25px);
+        padding-right: calc((100vw - 320px)/(1440 - 320) * (217 - 25) + 25px);
+    }
+}
+
+@media (max-width: 319px) {
+    .promo {
+        padding-top: 24px;
+        padding-bottom: 28px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

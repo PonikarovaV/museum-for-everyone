@@ -1,0 +1,11 @@
+@import url('./_theme/_orange/button_theme_orange.css');
+@import url('./_type/_small/button_type_small.css');
+@import url('./_type/_big/button_type_big.css');
+
+.button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+
+    transition: background-color ease 0.3s, color ease 0.3s;
+}

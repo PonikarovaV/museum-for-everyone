@@ -1,0 +1,24 @@
+.projects__text {
+    margin-top: 0;
+    margin-bottom: 17px;
+
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .projects__text {
+        margin-bottom: calc((100vw - 320px)/(768 - 320) * (17 - 8) + 8px);
+        font-size: calc((100vw - 320px)/(768 - 320) * (24 - 12) + 12px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (24 - 15) + 15px);
+    }
+}
+
+@media (max-width: 319px) {
+    .projects__text {
+        margin-bottom: 8px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

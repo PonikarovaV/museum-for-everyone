@@ -1,0 +1,25 @@
+.organizers__title {
+    margin-top: 0;
+    margin-bottom: 63px;
+
+    font-family: 'Pribambas';
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .organizers__title {
+        margin-bottom: calc((100vw - 320px)/(768 - 320) * (63 - 25) + 25px);
+        font-size: calc((100vw - 320px)/(768 - 320) * (36 - 24) + 24px);
+    }
+}
+
+@media (max-width: 319px) {
+    .organizers__title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+}

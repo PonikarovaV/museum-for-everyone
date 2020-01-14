@@ -1,0 +1,50 @@
+@font-face {
+    src: url('../../fonts/Pribambas/WEB/Pribambas-Regular.woff') format('woff'),
+         url('../../fonts/Pribambas/WEB/Pribambas-Regular.woff2') format('woff2'),
+         url('../../fonts/Pribambas/WEB/Pribambas-Regular.eot') format('eot'),
+         url('../../fonts/Pribambas/TTF/Pribambas-Regular.ttf') format('truetype');
+    font-family: 'Pribambas';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../../fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+    font-family: 'Fira Sans';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../../fonts/Fira_Sans/FiraSans-SemiBold.ttf') format('truetype');
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.page {
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Fira Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding: 0;
+    }
+}

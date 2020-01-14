@@ -1,0 +1,24 @@
+@import url('./__title/organizers__title.css');
+@import url('./__block/organizers__block.css');
+@import url('./__list/organizers__list.css');
+@import url('./__item/organizers__item.css');
+@import url('./__section/organizers__section.css');
+@import url('./__icon/organizers__icon.css');
+
+.organizers {
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 75px 170px 82px;
+
+    display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+    .organizers {
+        padding-top: calc((100vw - 320px)/(1440 - 320) * (75 - 25) + 25px);
+        padding-bottom: calc((100vw - 320px)/(1440 - 320) * (82 - 190) + 190px);
+        padding-left: calc((100vw - 320px)/(1440 - 320) * (170 - 25) + 25px);
+        padding-right: calc((100vw - 320px)/(1440 - 320) * (170 - 25) + 25px);
+    }
+}

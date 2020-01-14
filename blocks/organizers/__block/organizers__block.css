@@ -1,0 +1,16 @@
+.organizers__block {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 500px));
+    column-gap: 20px;
+    row-gap: 128px;
+}
+
+@media (max-width: 1100px) {
+    .organizers__block {
+        justify-content: center;
+        justify-items: center;
+        row-gap: 70px;
+    }
+}

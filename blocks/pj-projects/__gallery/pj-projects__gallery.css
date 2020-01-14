@@ -1,0 +1,21 @@
+.pj-projects__gallery {
+    display: grid;
+    grid-template-areas: "pic02 pic01 pic01 pic01"
+                         "pic03 pic01 pic01 pic01"
+                         "pic04 pic01 pic01 pic01";
+    column-gap: 60px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1360px) {
+    .pj-projects__gallery {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .pj-projects__gallery {
+        grid-template-areas: "pic01";
+        justify-content: center;
+    }
+}

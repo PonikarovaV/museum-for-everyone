@@ -1,0 +1,9 @@
+.pj-projects__button {
+    margin-top: 50px;
+}
+
+@media (max-width: 1360px) {
+    .pj-projects__button {
+        margin-top: 29px;
+    }
+}

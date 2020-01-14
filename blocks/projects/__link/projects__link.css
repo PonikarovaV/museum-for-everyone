@@ -1,0 +1,22 @@
+.projects__link {
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .projects__link {
+        font-size: calc((100vw - 320px)/(768 - 320) * (14 - 12) + 12px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (17 - 15) + 15px);
+    }
+}
+
+@media (max-width: 319px) {
+    .projects__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

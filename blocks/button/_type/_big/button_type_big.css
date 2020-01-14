@@ -1,0 +1,23 @@
+
+.button_type_big {
+    width: 423px;
+    height: 87px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    
+    color: #001185;
+}
+
+@media (max-width: 768px) {
+    .button_type_big {
+        width: 234px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
