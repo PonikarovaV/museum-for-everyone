@@ -8,6 +8,10 @@
     color: #000000;
 }
 
+.footer__email:hover {
+    opacity: 0.6;
+}
+
 @media (max-width: 1050px) {
     .footer__email {
         order: 1;
