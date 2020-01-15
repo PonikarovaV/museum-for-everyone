@@ -1,6 +1,7 @@
 .events__head {
     width: 100%;
-    height: 189px;
+    padding-top: 51px;
+    padding-bottom: 51px;
 
     display: flex;
     justify-content: center;
@@ -11,12 +12,14 @@
 
 @media (min-width: 320px) and (max-width: 1100px) {
     .events__head {
-        height: calc((100vw - 320px)/(1100 - 320) * (189 - 100) + 100px);
+        padding-top: calc((100vw - 320px)/(768 - 320) * (51 - 25) + 25px);
+        padding-bottom: calc((100vw - 320px)/(768 - 320) * (51 - 25) + 25px);
     }
 }
 
 @media (max-width: 319px) {
     .events__head {
-        height: 100px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
