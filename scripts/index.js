@@ -28,7 +28,7 @@
 
     function fillDateLine(days, title) {
 
-        if (days < 0) {
+        if (days < -2) {
             document.querySelector('.banner__counter').textContent = 'Событие завершилось, но мы еще встретимся! ;)';
         }
 
@@ -36,7 +36,7 @@
             document.querySelector('.banner__counter').textContent = 'Завтра!';
         }
 
-        if (days === 0) {
+        if (days === 0 || days === -1 || days === -2) {
             document.querySelector('.banner__counter').textContent = 'Сегодня!';
         }
 
