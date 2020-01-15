@@ -12,8 +12,8 @@
 
 @media (min-width: 320px) and (max-width: 1100px) {
     .events__head {
-        padding-top: calc((100vw - 320px)/(768 - 320) * (51 - 25) + 25px);
-        padding-bottom: calc((100vw - 320px)/(768 - 320) * (51 - 25) + 25px);
+        padding-top: calc((100vw - 320px)/(1100 - 320) * (51 - 25) + 25px);
+        padding-bottom: calc((100vw - 320px)/(1100 - 320) * (51 - 25) + 25px);
     }
 }
 
