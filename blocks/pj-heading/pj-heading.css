@@ -1,0 +1,21 @@
+@import url('./__title/pj-heading__title.css');
+
+.pj-heading {
+    width: 100%;
+    padding-top: 44px;
+    padding-bottom: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .pj-heading {
+        padding-top: calc((100vw - 320px)/(768 - 320) * (44 - 29) + 29px);
+        padding-bottom: calc((100vw - 320px)/(768 - 320) * (17 - 29) + 29px);
+    }
+}
+
+@media (max-width: 319px) {
+    .pj-heading {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+}

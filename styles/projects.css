@@ -7,6 +7,7 @@
 @import url('../blocks/main/main.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_theme/_white/button_theme_white.css');
+@import url('../blocks/pj-heading/pj-heading.css');
 @import url('../blocks/pj-projects/pj-projects.css');
 
 @import url('../blocks/footer/footer.css');
