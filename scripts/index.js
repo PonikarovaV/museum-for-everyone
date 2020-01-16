@@ -47,4 +47,47 @@
 
     fillDateLine(dayCounter(), declination);
 
+    function smoothScroll(element, duration) {
+        let target = document.getElementById(element);
+        let targetPosition = target.getBoundingClientRect().top;
+        let startPosition = window.pageYOffset;
+        let distance = targetPosition - startPosition;
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) {
+                startTime = currentTime;
+            }
+            let timeElapsed = currentTime - startTime;
+            let run = easy(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) {
+                requestAnimationFrame(animation);
+            }
+        }
+
+        function easy(t, b, c, d) {
+            t /= d/2;
+            if (t < 1) return c/2*t*t + b;
+            t--;
+            return -c/2 * (t*(t-2) - 1) + b;
+        };
+
+        requestAnimationFrame(animation);
+    }
+
+    function addLinksListeners() {
+        let navigationLinks = document.querySelectorAll('.navigation__link');
+
+        navigationLinks.forEach( el => {
+            let href = el.getAttribute('href');
+            el.addEventListener('click', function(event) {
+                event.preventDefault();
+                smoothScroll(href.slice(1), 1000);
+            });
+        });
+    }
+
+    addLinksListeners();
+
 })();
